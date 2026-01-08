@@ -1,0 +1,24 @@
+<?php
+class content extends CI_Controller
+{
+
+    function index()
+    {   
+
+        //Generate Chapter 1 Content
+
+
+
+
+        //Generate Chapter 2 Content 
+
+
+        //Generate Chapter 3 Content
+
+
+        $this->load->view('header');
+        $this->load->view('content');
+        $this->load->view('footer');
+    }
+}
+?>

@@ -1,0 +1,272 @@
+html {
+    background-image: url(img/match-matrix-background-large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    background-position: center center;
+}
+
+body {
+    background:none;
+}
+
+.center{ text-align:center; }
+
+.content-container{ 
+	width: 100%; 
+	max-width: 900px; 
+	margin: 0px auto;
+	padding: 20px 25px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 50px; 
+	box-sizing: border-box;
+}
+
+.content-container h1 {
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size:50px;
+}
+
+.purple-text{
+    color:#4929d9 !important;
+}
+
+h2 { 
+    font-size:23px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top {
+    display:none !important;
+}
+
+.chapter { 
+    border-top:1px solid #dedede; 
+    margin-top:30px; 
+    padding-top:30px; }
+
+.chapter h3 { 
+
+    padding-bottom:20px;
+
+}
+
+.chapter p { line-height:30px; font-family: 'Poppins', sans-serif; font-size:16px; display: inline; text-align: justify;}
+
+p.paragraph {
+    display: block;
+}
+
+.major-top-container {
+
+    clear:both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.image-card {
+
+    max-width: 250px;
+    border-radius: 5px;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+.image-card img {
+
+    border-radius: 5px;
+
+}
+
+.sub-main-title p {
+
+    font-size: 30px !important;
+    margin-bottom: 30px; 
+    display: block !important;
+    padding-top: 0px !important;
+    line-height:35px;
+    text-align: left;
+
+}
+
+.sub-main-title-firstline p {
+
+    font-size: 50px !important;
+    margin-bottom: 0; 
+    display: block !important;
+    padding-top: 0px !important;
+    line-height:65px;
+    text-align: center;
+
+}
+
+.sub-main-title-secondline p {
+
+    font-size: 40px !important;
+    margin-bottom: 30px; 
+    display: block !important;
+    padding-top: 0px !important;
+    line-height:65px;
+    text-align: center;
+
+}
+
+.sub-main-title-container {
+    /* margin-top:30px;
+    margin-bottom:90px; */
+    margin-top:0;
+    margin-bottom:30px;
+}
+
+.sub-main-title-finalthoughts p {
+
+    font-size: 40px !important;
+    margin-bottom: 30px;
+    display: block !important;
+    padding-top: 0px !important;
+    line-height: 35px;
+    text-align: left;
+
+}
+
+.sub-main-title-decan p {
+
+    font-size: 40px !important;
+    margin-bottom: 0;
+    display: block !important;
+    padding-top: 0px !important;
+    line-height: 35px;
+    text-align: left;
+
+}
+
+.content-subtitle p {
+    
+    font-size: 24px  !important;
+    font-weight: 500  !important;
+
+}
+
+.content-subtitle-large, .content-subtitle-large p {
+
+    font-size:35px;
+    margin-bottom: 30px;
+    display: block !important;
+    padding-top: 0px !important;
+    line-height: 45px;
+    text-align: left;
+    text-transform: uppercase;
+
+}
+
+.content-subtitle-larger, .content-subtitle-larger p{
+
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-bottom:0;
+    display: block !important;
+    padding-top: 0px !important;
+    line-height: 65px;
+
+}
+
+.content-subtitle-masternumber p{
+
+    font-style: italic;
+    font-size: 21px;
+    margin-bottom:30px;
+
+}
+
+.content-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.floating-menu {
+
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    padding: 5px;
+    width: 255px;
+    z-index: 100;
+    position: fixed;
+    border-radius: 10px;
+    margin-left: -290px;
+    margin-top: -20px;
+
+}
+
+.floating-menu a, .floating-menu h3 {
+
+    font-size: 0.9em;
+    display: block;
+    margin: 0 0.5em;
+    color: #212529;
+
+}
+
+.floating-menu ul :not(:last-child){
+
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+
+}
+
+.floating-menu ul {
+
+    margin: auto;
+
+}
+
+.container-your-astrology-placements p{
+
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-transform: capitalize !important;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+@media only screen and (max-width:640px){
+
+    .container-your-astrology-placements { margin:0 auto 25px !important; width: 100% !important; }
+
+    .container-your-astrology-placements .col-sm-6 {
+        width: 100%;
+        max-width: 100%;
+        flex: 1;
+    }
+
+    .container-your-astrology-placements .row.center {
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width:1380px){
+
+    .floating-menu { 
+
+        margin-left:-15%; 
+        width:12.5%;
+
+    }
+
+
+}
+
+@media only screen and (max-width:1210px){
+
+    .floating-menu { display:none !important; }
+
+}
