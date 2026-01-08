@@ -153,7 +153,7 @@
  
       <div class="center-generate-button">
 
-          <button type="button" class="small-continue btn" id="generate-pdf">CALCULATE COMPATIBILITY NOW</button>
+          <button type="button" class="small-continue btn" id="generate-pdf">CALCULATE COMPATIBILITY</button>
           
       </div>
 
